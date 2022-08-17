@@ -10,7 +10,7 @@ h1{
 }
 
 .media-picture{
-    background-image: url("/img/Volver.jpg");
+    background-image: url("../img/Volver.jpg");
     background-size: 100%;
     height: 900px;
     width: 100%;
