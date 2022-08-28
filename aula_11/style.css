@@ -168,7 +168,7 @@ footer{
     width: 100%;
     align-self: center;
     text-align: end;
-    margin-right: 42px;
+    margin-right: 20px;
 }
 
 .footer-items{
@@ -203,7 +203,8 @@ footer{
 
 .icon2{
     height: 70px;
-    position: absolute;
-    left: 1050px;
-    top: 40px;
+    position: relative;
+    z-index: 1;
+    right: 200px;
+    top:50px;
 }
