@@ -28,6 +28,7 @@ header{
     background-color: #00669f;
     padding: 28px 28px 26px;
     margin-bottom: 50px;
+    position:sticky;
 }
 
 .card-container{
