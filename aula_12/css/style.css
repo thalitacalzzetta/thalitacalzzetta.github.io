@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+.ofertas{
+    display: none;
+    background-color: #222;
+    width: 100%;
+    height: 20px;
+    top:0;
+}
+
+.ofertas p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    width: 100%;
+    color: #f3f3f3;
+    align-self: center;
+}
+
+.language-button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #f3f3f3;
+    background-color: #222;
+    border: none;
+    align-self: center;
+    
+}
+
+.coin-button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #f3f3f3;
+    background-color: #222;
+    border: none;
+    align-self: center;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 62px;
+    top:20px;
+    background-color: #f0a83e;
+    justify-content: space-between;
+}
+
+.menu-mobile{
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.title{
+    display: flex;
+    align-self: center;
+    margin-left: 40px;
+}
+
+.title p{
+    font-style:normal;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 23px;
+    width:100%;
+}
+
+.title img{
+    width: 20px;
+    height: 20px;
+}
+
+.white{
+    color: #ffff;
+}
+
+.nav{
+    display: none;
+   
+}
+
+.nav ul{
+    display: flex;
+    
+}
+
+.nav ul li img{
+    width: 10px;
+}
+
+.nav a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color:#ffff;
+    width: 100%;
+    padding-right: 10px;
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.Home{
+    display: flex;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 409px;
+    top:81px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+
+.text1{
+    background-color: #ffff;
+    width:365px;
+    height: 54px;
+    border-radius: 5px;
+    align-self: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3c2313;
+    align-self: center;
+}
+
+.text2{
+    display: none;
+}
+
+.text3{
+    background-color: #f0a83e;
+    width:141px;
+    height: 49px;
+    border-radius: 5px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text3 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.Pets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-pets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title-pets img{
+    width: 75px;
+    height: 65px;
+}
+
+.title-pets h2{
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color:#3c2313;
+    margin-top: 20px;
+}
+
+.list1{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.list2{
+    display: flex;
+   
+}
+
+.list-pets li{
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #666666;
+    margin: auto 20px;
+
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.card1{
+    width: 239px;
+    height: 281px;
+    
+}
+
+.card2{
+    width: 239px;
+    height: 281px; 
+    margin-top: 20px; 
+
+}
+
+.card3{
+    width: 239px;
+    height: 281px; 
+    margin-top: 20px; 
+
+}
+
+
+
+.cards img{
+    display: flex;
+    width: 239px;
+    height: 246px;
+    justify-content: center;
+}
+
+.cards h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    width: 100%;
+    background-color: #FBFAF6;
+    text-align: center;
+}
+
+.cards p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    width: 100%;
+    color: #f0a83e;
+    background-color: #FBFAF6;
+    text-align: center;
+    
+}
+
+.Contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contato h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3c2313;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Contato p{
+    width: 298px;
+    height: 40px;
+    background-color: #3c2313;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: initial;
+    padding-left: 6px;
+    padding-top: 14px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button1{
+    width: 50%;
+    height: 45px;
+    background-color: #8A8787;
+    border-radius: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    padding-top: 13px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+
+.button2{
+    width: 50%;
+    height: 45px;
+    background-color: #f0a83e;
+    border-radius: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    padding-top: 13px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.register{
+    background-color: #f0a83e;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 101px;
+}
+
+.email{
+    display: flex;
+    justify-content:space-around;
+}
+
+.email-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register img{
+    width: 40px;
+    height: 30px;
+}
+
+.p1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffff;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.p2{
+    width: 261px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #a0a0a0;
+    padding-left: 15px;
+    padding-top: 14px;
+}
+
+.p3{
+    width: 100px;
+    height: 35px;
+    background-color: #3c2313;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 8px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+footer{
+    background-color: #3c2313;
+    width: 100%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.part2{
+    display: flex;
+    width: 190px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+}
+
+.location{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.phone{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.contact{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.part2 img{
+    width: 40px;
+}
+
+.part2 h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.part2 p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8A8787;
+    margin-left: 10px;
+}
+
+.title2{
+    display: flex;
+    align-items: center;
+}
+
+.title2 p{
+    margin-top: 10px;
+    font-style:normal;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 23px;
+    width:100%;
+}
+
+.title2 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.direitos{
+    background-color: #222222;
+    width: 100%;
+}
+
+.direitos p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    width: 100%;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+@media (min-width:480px){
+    .ofertas{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    
+    .nav{
+        display: flex;
+        align-self: center;
+        margin-right: 30px;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+
+    .text2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #3c2313;
+        display: flex;
+        margin-right: 89px;
+    }
+    
+    .Home{
+        background-size: 100%;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .text1{
+        align-self: flex-end;
+        margin-right: 12px;
+    }
+
+    .text3{
+        align-self: flex-end;
+        margin-right: 117px;
+    }
+
+    .cards{
+        flex-direction: row;
+        height: 300px;
+        padding: 0;
+    }
+    
+    .card1{
+        width: 239px;
+        height: 281px; 
+        margin-top: 20px;
+    }
+
+    .Contato{
+        margin-top: 20px;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .button1{
+        width: 110px;
+        height: 45px;
+       
+    }
+    
+    .button2{
+        width: 110px;
+        height: 45px;
+        
+    }
+
+    .register{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+
+    .email{
+        display: flex;
+        margin-left: 10px;
+        
+    }
+    
+    .email-space{
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .p1{
+        margin: 0 10px;     
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 250px;
+    }
+
+    .part2{
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 0;        
+        margin-left: 50px;
+    }
+
+    .title2{
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+    }
+    
+
+}
