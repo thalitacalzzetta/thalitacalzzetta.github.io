@@ -58,7 +58,6 @@ nav ul li a::before {
   bottom: -10px;
   height: 5px;
   width: 0;
-
   /*dica: width iniciando em 0 e aplicação de uma transição*/
 }
 
