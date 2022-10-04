@@ -1,0 +1,152 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.nav-link:hover{
+    color: #FFBD59;
+
+}
+header .ms-5, header .me-5{
+    margin: 0 !important;
+}
+
+    
+
+
+main{
+    padding: 2.5rem;
+}
+
+.carousel{
+    margin-top: 77px;
+}
+
+.infcreators{
+    display: flex;
+    width: 95%; 
+    height: 9.4rem;
+    
+   }
+
+   .infcreatorssec { 
+    width: 260px;
+}
+.textDetails h2{
+    font-size:x-large;
+    font-weight: 900;
+
+}
+
+.infcreatorssec p { 
+    color: #0085FF;
+    text-align: justify;
+    cursor: pointer;
+}
+.infcreatorssec p:hover{
+    color: #fbe154;
+
+}
+
+.textDetails p{
+    text-align: justify;
+}
+
+.stars { 
+    color: #FBE159;
+}
+.trailer h3{
+    font-weight: 600;
+}
+
+
+
+.container{
+    height: 5vw;
+}
+
+footer{
+    background-color: #171717;
+}
+
+.aluno h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.aluno p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    color:  rgba(255, 255, 255, 0.75);
+}
+
+.aluno i{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+
+.aluno i:hover{
+    color: #E51B3E;
+    transition: all 0.5s;
+    transform: scale(1.2)
+}
+
+.footer-end{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 15px;    
+}
+/*modal*/
+.btn-primary{
+    background: #F19201;
+    border-radius: 12px;
+    border-color: #F19201;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #000000;
+    --bs-btn-hover-color: #F19201;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-color: #F19201;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+}
+.modal-header{
+background-color:#2C0F4F ;
+}
+.btn-close{
+    background-color: #F19201;
+
+}
+
+@media(max-width: 768px) {
+    header .ms-5, header .me-5{
+        margin: 0 !important;
+    }
+}
+
+
+

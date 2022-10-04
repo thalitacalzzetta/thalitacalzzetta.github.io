@@ -1,0 +1,255 @@
+:root { 
+    --modal-header:#2C0F4F;
+    --btn-close:#F19201 ;
+    --stars-color: #FBE159;
+    --word-color: #000000;
+    --span-color: #f5aa3a;
+    --high-color: #0085FF;
+    --emojis-color: #0000002c; 
+    --fa-heart: rgb(176, 13, 13);
+    --fa-thumbs-up: #025bae ;
+}   
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../img/menu-hamburguer.png);
+}
+
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.nav-link:hover{
+    color: #FFBD59;
+}
+header .ms-5, header .me-5{
+    margin: 0 !important;
+}
+
+.btn-primary{
+    background: #F19201;
+    border-radius: 12px;
+    border-color: #F19201;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #000000;
+    --bs-btn-hover-color: #F19201;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-color: #F19201;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+}
+
+.modal-header{
+   background-color: var(--modal-header);
+
+}
+
+.btn-close{
+    background-color: var(--btn-close);
+
+}
+
+.banner{ 
+    width: 100%;
+    height: 35em;
+    object-fit: cover;
+    margin-top: 77px;
+  }
+
+.detail { 
+    color: var(--word-color);
+    padding-top: 1.25em;
+}
+
+.titleDetails h1 { 
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.stars { 
+    color: var(--stars-color);
+}
+
+.fraseDetails { 
+    text-align: center;
+    padding-top: 1em;
+}
+
+.fraseDetails h2 { 
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.fraseDetails span { 
+    color: var(--span-color);
+}
+
+.textDetails p { 
+    text-align: justify;
+    padding-top: 0.75em;
+    font-size: 1.2em;
+}
+
+.namesDetails { 
+    width: 95%; 
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.names { 
+    width: 12.5em;
+}
+
+.names p { 
+    color: var(--high-color);
+    text-align: justify;
+    font-size: 1em;
+}
+
+.favoriteDetails { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.favoriteText h3{ 
+    padding-bottom: 1.25em;
+ }
+ 
+ .favoriteCard { 
+     width: 20.25em; 
+     height: 20em;
+ }
+ 
+ .favoriteCard img { 
+     width: 12.5em;
+     height: 12.5em;
+     object-fit: cover;
+     border-radius: 50%;
+ }
+ 
+ .favoriteCard p { 
+     font-size: 1.7em;
+     font-weight: 500;
+     margin-bottom: 0;
+    
+ }
+ 
+ .favoriteCard .emojis i{ 
+     font-size: 2em;
+     color: var(--emojis-color);
+ }
+ 
+ .favoriteCard .emojis .fa-heart:hover{
+     color: var(--fa-heart);
+ } 
+ 
+ .favoriteCard .emojis .fa-face-smile:hover{ 
+     color: var(--span-color);
+ }
+
+ .favoriteCard .emojis .fa-thumbs-up:hover{ 
+    color: var(--fa-thumbs-up);
+ }
+
+
+footer{
+    background-color: #171717;
+}
+
+.aluno h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.aluno p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    color:  rgba(255, 255, 255, 0.75);
+}
+
+.aluno i{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+
+.aluno i:hover{
+    color: #FFBD59;
+    transition: all 0.5s;
+    transform: scale(1.2)
+}
+
+.footer-end{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 15px;    
+}
+
+
+
+
+@media(min-width: 800px){ 
+    
+    .fraseDetails br{ 
+        display: none;
+    }
+
+    .namesDetails { 
+        display: inline-flex;
+        justify-content: left;
+    }
+
+    .names p { 
+        width: 450px;
+    }
+
+    .favoriteDetails { 
+        padding-top: 0em;
+    }
+
+    .favoriteAll{ 
+        width: 100%;
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    
+}
+@media(max-width: 650px) {
+    header .ms-5, header .me-5{
+        margin: 0 !important;
+    }
+}
+
+
