@@ -53,6 +53,53 @@
     border-radius: 25px;
 }
 
+.title-me{
+    color:rgb(34, 34, 110);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.photo-me{
+    height: 500px;
+    width: 400px;
+    border-radius: 50px
+}
+
+.subtitle-me{
+    color: rgb(219, 111, 10);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.text-me{
+    color:black;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.title-projects{
+    color:rgb(34, 34, 110);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.projects{
+    background-color: rgba(219, 111, 10, 0.616);
+}
+
+.skills-title{
+    color:rgb(34, 34, 110);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.card-skills{
+    height: 100px;
+    width: 100%;
+    border:1px solid rgb(34, 34, 110);
+    border-radius: 10px;
+}
+
 /*@media (max-width:768px){
     #banner h1{
         color:rgb(34, 34, 110);
